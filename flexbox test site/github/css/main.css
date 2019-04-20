@@ -1,0 +1,310 @@
+body {
+  /*тело сайта*/
+  margin: 0 auto;
+  max-width: 1600px;
+  display: flex;
+  flex-direction: column;
+}
+body header {
+  background: url('../images/Layer_10.png') no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 600px;
+  width: 100%;
+  max-width: 1600px;
+  font-family: 'Montserrat', sans-serif;
+}
+body header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body header nav > a {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+body header nav > a:hover {
+  opacity: .9;
+  color: black;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  transition: .3s;
+}
+body header nav > a img {
+  width: 128px;
+}
+body menu {
+  list-style: none;
+  text-transform: uppercase;
+  display: flex;
+}
+body menu li {
+  padding-left: 15px;
+}
+body menu li a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+body menu li a:hover {
+  color: #000000;
+  transition: .3s;
+  border-bottom: black solid 3px;
+  border-top: 3px solid black;
+  padding-bottom: 5px;
+}
+body .mainText {
+  text-align: center;
+}
+body .mainText h1 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 48px;
+  font-weight: 400;
+}
+body .mainText h1 span {
+  color: black;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #E66750;
+}
+body .mainText p {
+  color: azure;
+  font-size: 20px;
+}
+body .mainText p:hover {
+  color: black;
+  font-weight: 900;
+}
+body .mainText a {
+  color: darkslategrey;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: black solid 3px;
+  border-radius: 8px;
+  padding: 12px;
+}
+body .mainText a:hover {
+  background: darkslategrey;
+  color: white;
+}
+body .botHeader {
+  display: flex;
+  justify-content: center;
+}
+body .botHeader a {
+  border: black 3px solid;
+  padding: 15px;
+  border-radius: 50%;
+  background: none;
+  margin-bottom: 5px;
+}
+body .botHeader a:hover {
+  background: rgba(47, 79, 79, 0.54);
+}
+body .services {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 578px;
+  width: 100%;
+  max-width: 1600px;
+  font-family: 'Roboto Slab', serif;
+}
+body .services img {
+  align-self: center;
+  padding-top: 99px;
+}
+body .services p {
+  color: #555555;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+body .services .icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+body .services .icons .table {
+  flex-basis: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: 2%;
+}
+body .services .icons .table h3 {
+  color: #555555;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+body .services .icons .table p {
+  color: #555555;
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+body .aboutus {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 852px;
+  width: 100%;
+  max-width: 1600;
+  font-family: 'Roboto Slab', serif;
+}
+body .aboutus img {
+  align-self: center;
+  padding-top: 99px;
+}
+body .aboutus p {
+  color: #555555;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+body .aboutus .story {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+body .aboutus .story p {
+  flex-basis: 530px;
+  text-align: left;
+  margin: 50px;
+  color: #555555;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+body .aboutus .faces {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+body .aboutus .faces div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: auto;
+  margin: 30px;
+}
+body .aboutus .faces div h3 {
+  color: #555555;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+body .aboutus .faces div p {
+  color: #555555;
+  font-family: "Roboto Slab";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 2px;
+}
+body .latestworcks {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 1381px;
+  width: 100%;
+  max-width: 1600px;
+  font-family: "Roboto Slab";
+}
+body .latestworcks img {
+  margin-top: 90px;
+  align-self: center;
+}
+body .latestworcks menu {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+body .latestworcks menu li {
+  display: flex;
+  padding: 20px;
+}
+body .latestworcks menu li a {
+  text-decoration: none;
+  color: #817d7d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+body .latestworcks menu li a:hover {
+  color: #c0301c;
+}
+body .latestworcks .pic {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+body .latestworcks .pic a {
+  flex-basis: auto;
+  margin: 40px;
+}
+body .latestworcks .pic a img {
+  transition: all 0.5s ease;
+  filter: grayscale(100%);
+  filter: blur(2px);
+}
+body .latestworcks .pic a img:hover {
+  border-radius: 30%;
+  transition: 0.3s;
+  filter: grayscale(0%);
+  transform: rotate(360deg);
+}
+body .paralax {
+  background-image: url('/images/Paralax_section.png');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  min-height: 369px;
+  width: 100%;
+  max-width: 1600px;
+  font-family: "Roboto Slab";
+}
+body .paralax h3 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: center;
+}
+body .paralax a {
+  color: #ffffff;
+  border: #ffffff 2px solid;
+  border-radius: 8px;
+  padding: 14px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 44px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
